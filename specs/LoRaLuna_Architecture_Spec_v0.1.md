@@ -34,8 +34,10 @@ Current lunar mission communications rely on high-bandwidth systems, unsuitable 
 | Range | Estimated 15–50 km depending on elevation and antenna |
 | Power Use | Ideal for solar + battery systems |
 | Data Rate | Low (suitable for telemetry) |
-| Latency Sensitivity | Can be relaxed due to asynchronous mission requirements |
+| Latency Sensitivity | Can be relaxed due to asynchronous mission requirements | 
+*Lunar operations like monitoring or telemetry don’t require real-time interaction. LoRa’s delay tolerance and energy efficiency make it ideal for asynchronous mission design, where data can be buffered and sent in bursts.* |
 | Topology | Star-of-stars (multiple localized meshes per base or operation zone) |
+*Each cluster of nodes forms a localized star network around a gateway. These can be chained or overlapped to form larger decentralized zones, enhancing fault tolerance and modular expansion.* |
 
 ---
 
