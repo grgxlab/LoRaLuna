@@ -39,6 +39,15 @@ Current lunar mission communications rely on high-bandwidth systems, unsuitable 
 | Topology | Star-of-stars (multiple localized meshes per base or operation zone) |
 *Each cluster of nodes forms a localized star network around a gateway. These can be chained or overlapped to form larger decentralized zones, enhancing fault tolerance and modular expansion.* |
 
+-
+
+This architecture aligns conceptually with the LoRaWAN protocol as defined by the LoRa Alliance, primarily referencing version 1.0.4 and its associated features (Classes, ADR, MAC layer etc.)
+
+> 📘 LoRaWAN Specification v1.0.4: https://lora-alliance.org/resource-hub/lorawan-specification-v104  
+> 📘 Regional Parameters v2.1.1: https://lora-alliance.org/resource-hub/rp2-1-1-lorawan-regional-parameters
+
+Note: Since these documents assume Earth-based regulatory zones (e.g. EU868, US915), a lunar deployment would require custom adaptations regarding frequency plans, duty cycle enforcement, and network server behavior. However, the core protocol remains a suitable foundation for low-power, low-bandwidth communication in remote and asynchronous scenarios such as those found on the lunar surface.
+
 ---
 
 ## 4. Lunar Environmental Considerations
