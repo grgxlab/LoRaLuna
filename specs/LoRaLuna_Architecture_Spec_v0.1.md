@@ -33,7 +33,7 @@ Current lunar mission communications rely on high-bandwidth systems, unsuitable 
 | Frequency Band | TBD (no ISM band for Moon—proposal includes defining a "Lunar IoT Band") |
 | Range | Estimated 15–50 km depending on elevation and antenna |
 | Power Use | Ideal for solar + battery systems |
-| Data Rate | Low (suitable for telemetry, not for video) |
+| Data Rate | Low (suitable for telemetry) |
 | Latency Sensitivity | Can be relaxed due to asynchronous mission requirements |
 | Topology | Star-of-stars (multiple localized meshes per base or operation zone) |
 
