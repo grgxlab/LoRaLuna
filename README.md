@@ -2,7 +2,7 @@
 
 [![License: CC BY-NC-ND 4.0](https://licensebuttons.net/l/by-nc-nd/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
-**LoRaLuna** is a visionary open-source architecture for deploying a decentralized, low-power LoRaWAN-based IoT communication network on the Moon.
+**LoRaLuna** is an open-source architecture for deploying a decentralized, low-power LoRaWAN-based IoT communication network on the Moon.
 
 This project explores how resilient, asynchronous, and energy-efficient protocols—originally designed for terrestrial sensor networks—can be adapted to support lunar missions such as:
 
