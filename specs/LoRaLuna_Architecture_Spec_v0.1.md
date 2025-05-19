@@ -1,7 +1,7 @@
 # LoRaLuna Architecture Specification – v0.1
 
 **A Theoretical Design for a Resilient, Low-Power IoT Communication Network on the Moon**  
-**Author:** Gergely Gy.  
+**Author:** Gergely György  
 **Date:** May 18, 2025  
 **License:** CC BY-NC-ND 4.0
 
